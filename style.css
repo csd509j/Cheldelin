@@ -1,7 +1,7 @@
 /*
 Theme Name: Cheldelin Middle School
 Template: csdschools
-Version: 1.0.1
+Version: 1.0.2
 */
 a { color: #d1a537; }
 
@@ -15,17 +15,21 @@ h2 { color: #114e9b; }
 
 .subhead h3, .subhead h5 { color: #114e9b; }
 
+.btn-primary, .gform_button, #loginform #wp-submit, .acf-form .acf-button { background-color: #114e9b; }
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .gform_button:hover, .gform_button:active, .gform_button:focus, .acf-form .acf-button:hover, .acf-form .acf-button:active, .acf-form .acf-button:focus { background-color: #0e407f; }
+
 .btn-secondary { background-color: #f8c838; color: #ffffff; }
 
-.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus { background-color: #f7c11f; color: #ffffff; }
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus { background-color: #f7c01a; color: #ffffff; }
 
-#header-top-global { background: #f8c838; color: #ffffff; }
+#header-top-global { background: #f8c838; color: #333333; }
 
 #header-top-global li:hover, #header-top-global .fa:hover { background-color: #f7c11f; }
 
 #header-global { background-color: #ffffff; color: #333333; }
 
-#header-top-global a { color: #ffffff; }
+#header-top-global a { color: #333333; }
 
 #header-global .ubermenu-transition-fade .ubermenu-item .ubermenu-submenu-drop { background-color: #114e9b; }
 
@@ -33,7 +37,7 @@ h2 { color: #114e9b; }
 
 #nav-top-links { background-color: #f8c838; }
 
-.ubermenu-toplinks .ubermenu-submenu.ubermenu-submenu-drop { background-color: #f8c838; }
+#header-top-global .ubermenu-toplinks .ubermenu-submenu.ubermenu-submenu-drop.ubermenu-toplinks .ubermenu-submenu.ubermenu-submenu-drop, #header-top-global .ubermenu-toplinks .ubermenu-submenu.ubermenu-submenu-drop { background-color: #f8c838; }
 
 .carousel-wrap .item .carousel-caption .carousel-title { background-color: #f8c838; }
 

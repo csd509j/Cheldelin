@@ -1,15 +1,15 @@
 /*
 Theme Name: Cheldelin Middle School
 Template: csdschools
-Version: 1.0.3
+Version: 1.0.4
 */
 a { color: #d1a537; }
 
-a:hover { color: #be942c; }
+a:hover, a:focus { color: #be942c; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a { color: #114e9b; }
 
-.news-content a:hover { color: #0e407f; text-decoration: none; }
+.news-item a:hover { color: #0e407f; text-decoration: none; }
 
 h2 { color: #114e9b; }
 

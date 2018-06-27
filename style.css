@@ -1,7 +1,7 @@
 /*
 Theme Name: Cheldelin Middle School
 Template: csdschools
-Version: 1.0.2
+Version: 1.0.3
 */
 a { color: #d1a537; }
 
@@ -43,9 +43,9 @@ h2 { color: #114e9b; }
 
 .carousel-wrap .item .carousel-caption .carousel-title h3 { color: #ffffff; }
 
-.carousel-wrap .carousel-indicators li { border: 1px solid #114e9b; }
+.carousel-wrap .carousel-indicators li { border: 1px solid white; }
 
-.carousel-wrap .carousel-indicators .active { background-color: #114e9b; }
+.carousel-wrap .carousel-indicators .active { background-color: white; }
 
 #sidebar-first h2, #sidebar-first h4 { background: #114e9b; }
 

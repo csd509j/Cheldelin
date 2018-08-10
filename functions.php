@@ -18,16 +18,16 @@ $myUpdateChecker->setBranch('master');
  *
  * @since Cheldelin 1.0
  */
-function lpms_theme_enqueue_styles() {
+function cheldelin_theme_enqueue_styles() {
     
 	$parent_style = 'csdschools';
 	
 	wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
-	wp_enqueue_style( 'lpms-style',
+	wp_enqueue_style( 'cheldelin-style',
 	    get_stylesheet_directory_uri() . '/style.css',
 	    array( $parent_style ),
 	    wp_get_theme()->get('Version')
 	);
 
 }
-add_action( 'wp_enqueue_scripts', 'lpms_theme_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'cheldelin_theme_enqueue_styles' );

@@ -1,7 +1,7 @@
 /*
 Theme Name: Cheldelin Middle School
 Template: csdschools
-Version: 1.0.5
+Version: 1.0.6
 */
 a { color: #d1a537; }
 
@@ -38,6 +38,10 @@ h2 { color: #114e9b; }
 #nav-top-links { background-color: #f8c838; }
 
 #header-top-global .ubermenu-toplinks .ubermenu-submenu.ubermenu-submenu-drop.ubermenu-toplinks .ubermenu-submenu.ubermenu-submenu-drop, #header-top-global .ubermenu-toplinks .ubermenu-submenu.ubermenu-submenu-drop { background-color: #f8c838; }
+
+#header-top-global .btn-secondary, #header-top-global .dropdown-toggle, #header-top-global .dropdown-menu > li > a:hover, #header-top-global .dropdown-menu > li > a:focus, #header-top-global .dropdown-menu li:hover { background-color: #114e9b; }
+
+#header-top-global .dropdown-toggle a { color: white; }
 
 .carousel-wrap .item .carousel-caption .carousel-title { background-color: #f8c838; }
 

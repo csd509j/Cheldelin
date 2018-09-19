@@ -1,7 +1,7 @@
 /*
 Theme Name: Cheldelin Middle School
 Template: csdschools
-Version: 1.0.9
+Version: 1.1.0
 */
 a { color: #d1a537; }
 
@@ -82,3 +82,5 @@ h2 { color: #114e9b; }
 @media (max-width: 767px) { #header-mobile { background-color: #114e9b; }
   #header-mobile .ubermenu .ubermenu-retractor { background-color: #114e9b; }
   #header-mobile .ubermenu .ubermenu-item { border-bottom: 1px solid #114e9b; } }
+
+#logo img { height: 65px; }

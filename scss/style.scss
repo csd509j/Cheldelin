@@ -1,0 +1,28 @@
+/*!
+Theme Name: Cheldelin Middle School
+Template: csdschools
+Theme URI: https://abidewebdesign.com
+Author: Abide Web Design
+Author URI: https://abidewebdesign.com
+Description: The official theme for Cheldelin Middle School
+Version: 1.1.7
+*/
+
+// Theme colors
+$header-top-global-bg:		#f8c838 !default;
+$header-top-global-color:	#333333 !default;
+$header-global-bg:			#ffffff !default;
+$header-global-color:		#333333 !default;
+$brand-primary:         	#114e9b !default; 
+$brand-secondary:			#f8c838 !default;
+$brand-success:         	#5cb85c !default;
+$brand-info:            	#5bc0de !default;
+$brand-warning:         	#f0ad4e !default;
+$brand-danger:          	#d9534f !default;
+$header-color:				#ffffff !default;
+
+@import "school-colors";  
+
+#logo img {
+    height: 65px;
+}
